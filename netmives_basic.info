@@ -1,0 +1,92 @@
+name = Netmives
+description = Drupal Theme design by <a href="http://www.netmives.hu">Netmives</a>.
+version = VERSION
+
+api = 2
+core = 7.x
+
+; Core
+dependencies[] = block
+dependencies[] = translation
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = user
+
+; Administration
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+
+; Chaos tool suite
+dependencies[] = ctools
+dependencies[] = page_manager
+
+; Features
+dependencies[] = features
+
+; Fields
+dependencies[] = field_group
+
+; Mail
+dependencies[] = mailsystem
+dependencies[] = mimemail
+dependencies[] = mimemail_action
+dependencies[] = mimemail_compress
+dependencies[] = smtp
+
+; Multilingual
+dependencies[] = l10n_update
+
+; Other
+dependencies[] = colorbox
+dependencies[] = css_injector
+dependencies[] = genpass
+dependencies[] = libraries
+dependencies[] = pathauto
+dependencies[] = realname
+dependencies[] = site_verify
+dependencies[] = token
+dependencies[] = transliteration
+dependencies[] = username_enumeration_prevention
+
+; Security
+dependencies[] = seckit
+
+; SEO
+dependencies[] = metatag
+dependencies[] = metatag_views
+
+; Spam control
+dependencies[] = captcha
+dependencies[] = image_captcha
+dependencies[] = honeypot
+
+; Statistics
+dependencies[] = googleanalytics
+
+; User interface
+dependencies[] = ckeditor
+
+; Views
+dependencies[] = views
+dependencies[] = views_ui
+
+; XML sitemap
+dependencies[] = xmlsitemap
+dependencies[] = xmlsitemap_custom
+dependencies[] = xmlsitemap_engines
+dependencies[] = xmlsitemap_node
