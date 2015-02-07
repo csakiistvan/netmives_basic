@@ -5,11 +5,11 @@ core = 7.x
 projects[drupal][type] = core
 
 ; Profile
-projects[profile_netmives_basic][type] = profile
-projects[profile_netmives_basic][download][type] = git
-projects[profile_netmives_basic][download][url] = git@github.com:osimester/netmives_basic.git
-projects[profile_netmives_basic][download][branch] = master
-projects[profile_netmives_basic][directory_name] = netmives_basic
+projects[netmives_basic][type] = profile
+projects[netmives_basic][download][type] = git
+projects[netmives_basic][download][url] = git@github.com:osimester/netmives_basic.git
+projects[netmives_basic][download][branch] = master
+projects[netmives_basic][directory_name] = netmives_basic
 
 ; Administration
 projects[admin_menu][subdir] = contrib
