@@ -7,7 +7,7 @@ projects[drupal][type] = core
 ; Profile
 projects[netmives_basic][type] = profile
 projects[netmives_basic][download][type] = git
-projects[netmives_basic][download][url] = git@github.com:osimester/netmives_basic.git
+projects[netmives_basic][download][url] = git@github.com:csakiistvan/netmives_basic.git
 projects[netmives_basic][download][branch] = master
 projects[netmives_basic][directory_name] = netmives_basic
 
